@@ -1,6 +1,6 @@
 {
   "name": "@nhz.io/pouch-db-job-scheduler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PouchDB Job Scheduler (replicate/sync)",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@nhz.io/coffeetape": "^2.0.2",
-    "@nhz.io/pouch-db-replication-job": "^1.1.0",
+    "@nhz.io/pouch-db-replication-job": "^1.1.1",
     "cake": "^0.1.1",
     "chokidar-cli": "^1.2.0",
     "coffeelint": "^2.0.7",
