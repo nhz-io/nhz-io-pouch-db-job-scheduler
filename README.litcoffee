@@ -108,7 +108,7 @@ scheduler.addAll([ replicate({}, 'http://foo', 'foo'), replicate({}, 'foo', 'bar
 
       t.deepEqual await source.allDocs(), await target.allDocs()
 
-## Version 0.1.2
+## Version 0.1.3
 
 ## License [MIT](LICENSE)
 
