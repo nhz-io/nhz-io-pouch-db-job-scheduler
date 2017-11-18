@@ -46,7 +46,7 @@ scheduler.addAll([ replicate({}, 'http://foo', 'foo'), replicate({}, 'foo', 'bar
 
         @PouchDB = opts?.PouchDB or PouchDB
 
-      add: (run, args...) -> super (@prepare run), args...
+      add: (run, args...) -> super (@prepare run, args...)
 
 > Prepare job for run (Binding cleanup upon completion/fail)
 
