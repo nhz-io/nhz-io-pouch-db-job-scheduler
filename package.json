@@ -1,6 +1,6 @@
 {
   "name": "@nhz.io/pouch-db-job-scheduler",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "PouchDB Job Scheduler (replicate/sync)",
   "main": "index.js",
   "scripts": {
